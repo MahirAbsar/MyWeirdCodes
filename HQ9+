@@ -1,0 +1,11 @@
+instruction = input()
+valid = 0
+for i in instruction:
+    if(i=='H' or i=='Q' or i=='9' ):
+        valid = 1
+        break
+ 
+if(valid==1):
+    print("YES")
+else:
+    print("NO")
