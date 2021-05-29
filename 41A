@@ -1,0 +1,7 @@
+berlandish = list(input())
+brilandish = list(input())
+brilandish.reverse()
+if berlandish==brilandish:
+    print("YES")
+else:
+    print("NO")
