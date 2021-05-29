@@ -1,0 +1,19 @@
+string = input()
+newString = string[1:]
+counter = 0
+if string[0].isupper():
+    for x in newString:
+        if x.isupper()==False:
+            counter = 1
+            break
+else:
+    for x in newString:
+        if x.isupper()==False:
+            counter = 2
+            break
+ 
+ 
+if counter==0:
+    print(string.swapcase())
+else:
+    print(string)
